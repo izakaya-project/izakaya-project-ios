@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C101AE481BE0CF5B00CB93DE /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = C101AE461BE0CF5B00CB93DE /* 120x120.png */; };
+		C101AE491BE0CF5B00CB93DE /* 180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = C101AE471BE0CF5B00CB93DE /* 180x180.png */; };
+		C101AE591BE0D52F00CB93DE /* izakaya-watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C101AE581BE0D52F00CB93DE /* izakaya-watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C19B3F301BE0B5DC0012D12A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B3F2F1BE0B5DC0012D12A /* AppDelegate.swift */; };
 		C19B3F321BE0B5DC0012D12A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B3F311BE0B5DC0012D12A /* ViewController.swift */; };
 		C19B3F351BE0B5DC0012D12A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19B3F331BE0B5DC0012D12A /* Main.storyboard */; };
@@ -18,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C101AE5A1BE0D52F00CB93DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19B3F241BE0B5DB0012D12A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C101AE571BE0D52F00CB93DE;
+			remoteInfo = "izakaya-watch Extension";
+		};
 		C19B3F441BE0B5DC0012D12A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C19B3F241BE0B5DB0012D12A /* Project object */;
@@ -34,7 +44,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C101AE6E1BE0D53000CB93DE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C101AE591BE0D52F00CB93DE /* izakaya-watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C101AE461BE0CF5B00CB93DE /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
+		C101AE471BE0CF5B00CB93DE /* 180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180x180.png; sourceTree = "<group>"; };
+		C101AE4C1BE0D52F00CB93DE /* izakaya-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "izakaya-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C101AE581BE0D52F00CB93DE /* izakaya-watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "izakaya-watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C19B3F2C1BE0B5DC0012D12A /* izakaya-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "izakaya-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C19B3F2F1BE0B5DC0012D12A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C19B3F311BE0B5DC0012D12A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +80,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C101AE551BE0D52F00CB93DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C19B3F291BE0B5DC0012D12A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -92,6 +127,8 @@
 				C19B3F2C1BE0B5DC0012D12A /* izakaya-project.app */,
 				C19B3F431BE0B5DC0012D12A /* izakaya-projectTests.xctest */,
 				C19B3F4E1BE0B5DC0012D12A /* izakaya-projectUITests.xctest */,
+				C101AE4C1BE0D52F00CB93DE /* izakaya-watch.app */,
+				C101AE581BE0D52F00CB93DE /* izakaya-watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +136,8 @@
 		C19B3F2E1BE0B5DC0012D12A /* izakaya-project */ = {
 			isa = PBXGroup;
 			children = (
+				C101AE461BE0CF5B00CB93DE /* 120x120.png */,
+				C101AE471BE0CF5B00CB93DE /* 180x180.png */,
 				C19B3F2F1BE0B5DC0012D12A /* AppDelegate.swift */,
 				C19B3F311BE0B5DC0012D12A /* ViewController.swift */,
 				C19B3F331BE0B5DC0012D12A /* Main.storyboard */,
@@ -131,6 +170,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C101AE4B1BE0D52F00CB93DE /* izakaya-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C101AE6F1BE0D53000CB93DE /* Build configuration list for PBXNativeTarget "izakaya-watch" */;
+			buildPhases = (
+				C101AE4A1BE0D52F00CB93DE /* Resources */,
+				C101AE6E1BE0D53000CB93DE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C101AE5B1BE0D52F00CB93DE /* PBXTargetDependency */,
+			);
+			name = "izakaya-watch";
+			productName = "izakaya-watch";
+			productReference = C101AE4C1BE0D52F00CB93DE /* izakaya-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C101AE571BE0D52F00CB93DE /* izakaya-watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C101AE6B1BE0D53000CB93DE /* Build configuration list for PBXNativeTarget "izakaya-watch Extension" */;
+			buildPhases = (
+				C101AE541BE0D52F00CB93DE /* Sources */,
+				C101AE551BE0D52F00CB93DE /* Frameworks */,
+				C101AE561BE0D52F00CB93DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "izakaya-watch Extension";
+			productName = "izakaya-watch Extension";
+			productReference = C101AE581BE0D52F00CB93DE /* izakaya-watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		C19B3F2B1BE0B5DC0012D12A /* izakaya-project */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C19B3F571BE0B5DC0012D12A /* Build configuration list for PBXNativeTarget "izakaya-project" */;
@@ -194,8 +267,17 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = hisasann;
 				TargetAttributes = {
+					C101AE4B1BE0D52F00CB93DE = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 2KJ75G66HF;
+					};
+					C101AE571BE0D52F00CB93DE = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 2KJ75G66HF;
+					};
 					C19B3F2B1BE0B5DC0012D12A = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 2KJ75G66HF;
 					};
 					C19B3F421BE0B5DC0012D12A = {
 						CreatedOnToolsVersion = 7.1;
@@ -223,15 +305,33 @@
 				C19B3F2B1BE0B5DC0012D12A /* izakaya-project */,
 				C19B3F421BE0B5DC0012D12A /* izakaya-projectTests */,
 				C19B3F4D1BE0B5DC0012D12A /* izakaya-projectUITests */,
+				C101AE4B1BE0D52F00CB93DE /* izakaya-watch */,
+				C101AE571BE0D52F00CB93DE /* izakaya-watch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C101AE4A1BE0D52F00CB93DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C101AE561BE0D52F00CB93DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C19B3F2A1BE0B5DC0012D12A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C101AE481BE0CF5B00CB93DE /* 120x120.png in Resources */,
+				C101AE491BE0CF5B00CB93DE /* 180x180.png in Resources */,
 				C19B3F3D1BE0B5DC0012D12A /* LaunchScreen.storyboard in Resources */,
 				C19B3F3A1BE0B5DC0012D12A /* Assets.xcassets in Resources */,
 				C19B3F351BE0B5DC0012D12A /* Main.storyboard in Resources */,
@@ -255,6 +355,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C101AE541BE0D52F00CB93DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C19B3F281BE0B5DC0012D12A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,6 +391,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C101AE5B1BE0D52F00CB93DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C101AE571BE0D52F00CB93DE /* izakaya-watch Extension */;
+			targetProxy = C101AE5A1BE0D52F00CB93DE /* PBXContainerItemProxy */;
+		};
 		C19B3F451BE0B5DC0012D12A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C19B3F2B1BE0B5DC0012D12A /* izakaya-project */;
@@ -316,6 +428,68 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C101AE6C1BE0D53000CB93DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/izakaya-project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hisasann.izakaya-project.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		C101AE6D1BE0D53000CB93DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/izakaya-project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hisasann.izakaya-project.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		C101AE701BE0D53000CB93DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = izakaya_watch_Extension;
+				INFOPLIST_FILE = "izakaya-watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hisasann.izakaya-project.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		C101AE711BE0D53000CB93DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = izakaya_watch_Extension;
+				INFOPLIST_FILE = "izakaya-watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hisasann.izakaya-project.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 		C19B3F551BE0B5DC0012D12A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -401,10 +575,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "izakaya-project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hisasann.izakaya-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -412,10 +590,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "izakaya-project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hisasann.izakaya-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -470,6 +652,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C101AE6B1BE0D53000CB93DE /* Build configuration list for PBXNativeTarget "izakaya-watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C101AE6C1BE0D53000CB93DE /* Debug */,
+				C101AE6D1BE0D53000CB93DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C101AE6F1BE0D53000CB93DE /* Build configuration list for PBXNativeTarget "izakaya-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C101AE701BE0D53000CB93DE /* Debug */,
+				C101AE711BE0D53000CB93DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C19B3F271BE0B5DB0012D12A /* Build configuration list for PBXProject "izakaya-project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -486,6 +686,7 @@
 				C19B3F591BE0B5DC0012D12A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C19B3F5A1BE0B5DC0012D12A /* Build configuration list for PBXNativeTarget "izakaya-projectTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +695,7 @@
 				C19B3F5C1BE0B5DC0012D12A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C19B3F5D1BE0B5DC0012D12A /* Build configuration list for PBXNativeTarget "izakaya-projectUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +704,7 @@
 				C19B3F5F1BE0B5DC0012D12A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
